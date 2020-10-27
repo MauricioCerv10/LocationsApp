@@ -38,7 +38,7 @@
             </objects>
             <point key="canvasLocation" x="1050.7246376811595" y="65.625"/>
         </scene>
-        <!--Paises View Controller-->
+        <!--Ciuades para visitar-->
         <scene sceneID="EQH-ru-8bv">
             <objects>
                 <tableViewController id="Hsf-vR-eh6" customClass="PaisesViewController" customModule="CiudadesProject" customModuleProvider="target" sceneMemberID="viewController">
@@ -64,7 +64,7 @@
                             <outlet property="delegate" destination="Hsf-vR-eh6" id="TaL-Ny-HWT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Thv-xw-FKv"/>
+                    <navigationItem key="navigationItem" title="Ciuades para visitar" id="Thv-xw-FKv"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BnF-QP-vPF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

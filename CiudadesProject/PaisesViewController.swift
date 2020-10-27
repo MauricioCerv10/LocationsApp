@@ -45,6 +45,7 @@ class PaisesViewController: UITableViewController {
 
         // Configure the cell...
         cell.textLabel?.text = paises[indexPath.row].title
+        cell.accessoryType = .disclosureIndicator
         return cell
     }
     
